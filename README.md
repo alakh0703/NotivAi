@@ -13,5 +13,3 @@ NotivAi is an application for video summarization where users can either upload 
 - **Authentication:** Firebase
 - **Model Hosting:** Hugging Face Hub
 
-## Backend Code Overview
-The backend uses a variety of libraries and tools to handle video processing, transcription, and summarization. Here's an overview of the main components:
