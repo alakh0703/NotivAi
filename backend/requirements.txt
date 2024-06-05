@@ -1,0 +1,14 @@
+matplotlib==3.8
+moviepy==1.0
+requests
+spacy==3.7
+speechrecognition==3.10
+tensorflow==2.10
+flask==3.0
+flask-cors==4.0
+transformers==4.38
+youtube-transcript-api==0.6
+wordcloud==1.9.3
+sentencepiece
+torch
+huggingface_hub
