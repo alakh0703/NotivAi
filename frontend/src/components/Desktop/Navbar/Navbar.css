@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+.navbar_main {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(90deg, #f08b06 0%,#f39d2d 25%,#eea23e 50%,#f19a27 75%, #ef8a07 100%);
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* logo */
+.navbar_title {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Della Respira', serif;
+}
+/* other */
+.navbar_other {
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar_upload_video_btn {
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #f08b06;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+
+}
+.navbar_upload_video_btn:hover {
+    background-color: #f08b06;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.navbar_upload_video_btn:active {
+    transform: scale(1.08);
+}
+
+/* user */
+.navbar_user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 100%;
+    background: linear-gradient(90deg, #f6971b 0%,#e6ad62 25%,#efb66c 50%,#e7ac5f 75%, #ef8a07 100%);
+    margin-right: 20px;
+}
+.navbar_user_icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+
+    cursor: pointer;
+    overflow: hidden;
+}
+.userIcon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.userIcon2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    background-color: #6ee4f9;
+  
+}

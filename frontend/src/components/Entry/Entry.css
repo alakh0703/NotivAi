@@ -1,0 +1,61 @@
+/* Entry.css */
+
+.entry_main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+  
+  .entry_left {
+    width: 50%;
+    height: 100%;
+    /* background: linear-gradient(to right, #fd9c2d, #f8c280, #e89644); Adjust color stops as needed */
+    background: linear-gradient(to right,   #f8c280,#faa13b, #fd9c2d, #f09d3e,#f8c280); /* Adjust color stops as needed */
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adding a subtle box shadow */
+  }
+  
+  .entry_left_content {
+    text-align: center;
+  }
+  
+  .entry_title {
+    font-size: 4rem;
+    color: #ffffff; /* Text color for the title */
+    margin-bottom: 10px;
+  }
+  
+  .entry_subtitle {
+    font-size: 1.5rem;
+    color: #ffffff; /* Text color for the subtitle */
+  }
+  
+  .entry_right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Media query for mobile styles */
+  @media (max-width: 768px) {
+    .entry_left {
+      width: 100%; /* Adjust the width for mobile devices */
+      border-radius: 0; /* Remove border-radius for mobile devices */
+      box-shadow: none; /* Remove box shadow for mobile devices */
+    }
+  
+    .entry_right {
+      width: 100%;
+    }
+  }
+

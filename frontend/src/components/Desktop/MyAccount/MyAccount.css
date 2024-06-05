@@ -1,0 +1,44 @@
+.myAccount_main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myAccount_container {
+    width: 60%;
+    height: 100%;
+    padding: 2rem;
+    /* background-color: aliceblue; */
+
+}
+.myAccount_header {
+    width: 100%;
+}
+.myAccount_header_title {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.myAccount_header_tabs {
+    padding-top: 20px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.myAccount_header_tabs_tab {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.myAccount_header_tabs_tab:hover {
+    cursor: pointer;
+    background-color: #f3e6d4;
+}
+.myAccount_header_tabs_tab_active {
+    border-bottom: 2px solid #000;
+}

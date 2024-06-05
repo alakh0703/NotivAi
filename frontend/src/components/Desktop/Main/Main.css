@@ -1,0 +1,228 @@
+.main_main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_main_upload_card {
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 150px;
+    padding-bottom: 40px;
+}
+
+.main_main_upload_card_p1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main_main_upload_card_uploadBtn {
+    width: 160px;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(245, 161, 43);
+    color: white;
+    font-weight: 500;
+    font-size: 1.05rem;
+    margin-bottom: 40px;
+}
+
+.main_main_upload_card_uploadBtn:hover {
+    background-color: rgb(245, 144, 3);
+}
+
+.loader_container {
+    position: relative;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.loader_container p {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.loader {
+    width: 95%;
+    height: 10px;
+    background-color: rgb(239, 217, 185);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.loader_bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(236, 161, 57);
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.cancel_btn {
+    position: absolute;
+    top: -20%;
+    right: -1.5%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(236, 161, 57);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.cancel_btn:hover {
+    background-color: rgb(236, 144, 3);
+}
+
+.main_main_upload_youtube {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.main_main_upload_card_youtubeLink {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 1px solid rgb(236, 161, 57);
+    animation: grow 1s ease-in-out;
+}
+
+.main_main_upload_card_youtubeLink:hover {
+    background-color: rgb(239, 234, 229);
+}
+
+@keyframes grow {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.youtube_link_form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 40px;     */
+    flex-direction: column;
+}
+.youtube_link_form button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(236, 161, 57);
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: 20px;
+
+}
+
+
+.succ_uploaded {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-size: 1.1  rem;
+    font-weight: 500;
+
+    transition: all 0.5s ease-in-out;
+}
+.checkicon {
+    margin-left: 10px;
+}
+
+.preview_video {
+    width: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.preview_video_player {
+    width: 100%;
+    height:100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#ub {
+   
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(18, 17, 15);
+}
+#ub:hover {
+    border: 1px solid rgb(236, 161, 57);
+    transform: scale(1.1);
+}
+
+
+.transcript {
+    margin-bottom: 20px;
+}
+
+.select-div {
+    width: 200px;
+    height: 30px;
+}

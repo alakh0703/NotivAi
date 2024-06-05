@@ -1,0 +1,92 @@
+.usermodal_main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(243, 241, 241, 0.1);
+    display: flex;
+    justify-content: end;
+    margin-top: 85px;
+    z-index: 100;
+
+}
+.usermodal_popup {
+    background-color: white;
+    width: 20%;
+    height: fit-content;
+    
+    margin-right: 36px;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+.usermodal_popup_user {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.usermodal_popup_user_right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* background-color: antiquewhite; */
+    padding-left: 20px;
+}
+.usermodal_popup_user_email {
+    font-size: 0.9rem;
+    color: #8c8c8c;
+}
+.um_userIcon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+}
+.usermodal_popup_links {
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.usermodal_popup_link {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;    
+    transition: all 0.3s ease-in-out;
+    padding-left: 5px;
+    justify-content: space-between;
+    padding-right: 20px;
+
+
+}
+.usermodal_popup_link:hover > .lucide_icon {
+    display: block;
+}
+.usermodal_popup_link:hover {
+    background-color: #f4f4f4;
+}
+.lucide_user {
+    display: none;
+}
+.lucide_logout {
+    display: none;
+}
+
+.userIcon21 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}

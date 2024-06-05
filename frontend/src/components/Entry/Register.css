@@ -1,0 +1,125 @@
+.register_main {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow:  -3px -3px 3px #d0d0d0,
+             3px 3px 3px #f0f0f0;
+}
+
+
+.register_title {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register_title > p {
+    font-size: 2.2rem;
+    color: rgb(4, 3, 3);
+    font-weight: 900;
+}
+.register_google {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.register_google_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f4e5e5;
+    cursor: pointer;
+    
+}
+.register_google_icon:hover {
+    border: 2px solid #f4e5e5;
+    background-color: #f4e5e5;
+}
+.register_google_p1 {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: gray;
+}
+.googleIcon {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register_self_form {
+    width: 100%;
+    height: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.register_self_form_input {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+.register_self_form_button {
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+    background: linear-gradient(to right, #ec9b3e, #ea7909); /* Adjust color stops as needed */
+    color: white;
+
+    cursor: pointer;
+    font-size: 1rem;
+}
+.register_self_form_button:hover {
+    background: linear-gradient(to right, #ea7909, #ec9b3e); /* Adjust color stops as needed */
+}
+
+.register_register {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_register_p1 {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.register_register_span1 {
+    font-size: 0.9rem;
+    color: #0168f7;
+    cursor: pointer;
+}
+.register_register_span1:hover {
+    text-decoration: underline;
+}
+.register_self_form_button_div {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
